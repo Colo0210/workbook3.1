@@ -25,4 +25,9 @@ This is a Java program for an online store that allows users to view products, a
 * showCartScreen(): A method in OnlineStore that displays the contents of the user's cart and the total cost.
 * checkout(): A method in OnlineStore that guides the user through the checkout process, including entering personal and payment information. After completing the checkout, the cart is cleared.
 
-#Photos
+# Photos
+![onlinestore](https://user-images.githubusercontent.com/130699665/235442282-6d05a7ca-f730-4660-9a6d-c888bfd1a630.png)
+
+# Interesting code
+* try (BufferedReader br = new BufferedReader(new FileReader("src/main/inventory.csv"))) {
+*The try-with-resources statement automatically closes the resources declared inside the parentheses after the try block finishes executing, whether the block completes normally or abruptly. While I wouldn't use the word intersing this line of code and using the file reader was definitely an annoying part for me during this project
